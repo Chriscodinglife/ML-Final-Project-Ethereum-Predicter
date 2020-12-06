@@ -16,7 +16,7 @@
 ### Many factors can describe the reasoning behind these crashes, which include the rapid spread of COVID-19, consumer fear, and mass stock and crypto sell offs. These heavy tolls on the U.S. economy and the U.S. stock market garners further research which inspired the purpose of this project, which was how can one implement machine learning and follow trends of the world economy to learn the outcome of a price on a given day with a Crypto Currency?
 
 
-### This project will compose of the following:
+## This project will compose of the following:
 
 #### - Explanation of the ML Model used and other functions for Predicting Ethereum as well as the Datasets used for the ML Model
 #### - A brief overview of a Tkinter App created for a Windows OS environment to easily calculate the predicted price of Ethereum
@@ -27,14 +27,12 @@
 #### Please refer to the Notebook project file and the Python App Script here:
 
 Notebook:
-```
 https://github.com/chrisatpratt/ML-Final-Project-Ethereum-Predicter/blob/main/Christian%20Orellana%20Final%20Project.ipynb
-```
+
 
 Python App
-```
-Python App: https://github.com/chrisatpratt/ML-Final-Project-Ethereum-Predicter/blob/main/Ethereum%20Price%20Predictor.py
-```
+https://github.com/chrisatpratt/ML-Final-Project-Ethereum-Predicter/blob/main/Ethereum%20Price%20Predictor.py
+
 
 
 
@@ -73,9 +71,9 @@ https://finance.yahoo.com/quote/ETH-USD/history/
 
 ### Functions and Methods used within the Notebook
 
-#### Important functions that were needed to be created for this project were the following
+#### Important functions that were needed to be created for this project were the following:
 
-Conversion to Time Stamp Function: The datasets used came with a timestamp set as a string in Year-Month-Date format. In order to incorporate the datasets into the Polynomial Regression model converting these strings was important.
+Conversion to Time Stamp Function: The datasets used came with a timestamp set as a string in Year-Month-Date format. In order to incorporate the datasets into the Polynomial Regression model, converting these strings was important.
 
 The conversion was designed to set the timestamps to Epoch Time, or Time from Epoch.
 ```
@@ -136,7 +134,7 @@ def predict_button(value):
     return poly_model.predict(pft.fit_transform(value))
 ```
 
-### Calculating Error
+## Calculating Error
 
 #### Polynomial Regression uses an order of degrees that sets the power of the features to the number of degrees, outputting more data than the input, which can then be used to predict our Ethereum price. 
 
@@ -167,7 +165,7 @@ for i in range(1, 7):
 
 ![error](images/errorvsdegrees.png)
 
-#### As it can be seen above, the best order of degrees was 2 for my model, which is typically the default order of degrees for a base polynomail regression model. A linear regression model which typically has an order of 1 degree has more error than a order degree of 2 polynomail regression model. Anything past two would increase my error output.
+#### As it can be seen above, the best order of degrees was 2 for my model, which is typically the default order of degrees for a base polynomial regression model. A linear regression model which typically has an order of 1 degree has more error than a order degree of 2 polynomail regression model. Anything past two would increase my error output.
 
 ## Here comes the money: Implementing my model into an App
 
@@ -181,7 +179,7 @@ for i in range(1, 7):
 
 ![app](images/app.gif)
 
-#### The app will require in total 19 inputs that can be found by retrieving the following through any source of Stock Exchange outlets
+#### The app will require in total 19 inputs that can be found by retrieving the following through any source of Stock Exchange outlets:
 
 Date (in Year-Month-Day Format)
 
@@ -189,10 +187,10 @@ Open, High, Low, Close, Adj for NYSE, DOWJONES, and SHANGHAI
 
 Open, High, Low for Ethereum
 
-For Tkinter documentation:
-```
+### For Tkinter documentation:
+
 https://docs.python.org/3/library/tkinter.html
-```
+
 
 The Tkinter package is based off from the 3.8 Python package, which would require an update if your machine has an older Python version.
 
