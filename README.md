@@ -33,7 +33,7 @@ https://github.com/chrisatpratt/ML-Final-Project-Ethereum-Predicter/blob/main/Ch
 
 
 Python App
-https://github.com/chrisatpratt/ML-Final-Project-Ethereum-Predicter/blob/main/Ethereum%20Price%20Predictor.py
+https://github.com/chrisatpratt/ML-Final-Project-Ethereum-Predicter/tree/main/app
 
 
 
