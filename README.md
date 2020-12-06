@@ -15,6 +15,8 @@
 
 ### Many factors can describe the reasoning behind these crashes, which include the rapid spread of COVID-19, consumer fear, and mass stock and crypto sell offs. These heavy tolls on the U.S. economy and the U.S. stock market garners further research which inspired the purpose of this project, which was how can one implement machine learning and follow trends of the world economy to learn the outcome of a price on a given day with a Crypto Currency?
 
+### This project will outline the procedure of creating a Polynomial Regression model as well as an App that can be used in a Windows OS environment that can take stock exchange sets of data and export the Closing and Adjust Closing Price of Ethereum assuming that one has the available data required on a given day.
+
 
 ## This project will compose of the following:
 
@@ -44,7 +46,7 @@ https://github.com/chrisatpratt/ML-Final-Project-Ethereum-Predicter/blob/main/Et
 
 ### The datasets used were the following stock exchange data sets available here:
 
-![ny](images/stockexchange.jpg)
+![ny](images/stock.jpg)
 NYSE 
 ```
 https://finance.yahoo.com/quote/%5ENYA
@@ -187,7 +189,10 @@ Open, High, Low, Close, Adj for NYSE, DOWJONES, and SHANGHAI
 
 Open, High, Low for Ethereum
 
-### For Tkinter documentation:
+### The expected output of the App will be displayed by the lower bottom for the Closing Price and the Adjusted Closing Price of Ethereum.
+
+
+## For Tkinter documentation:
 
 https://docs.python.org/3/library/tkinter.html
 
