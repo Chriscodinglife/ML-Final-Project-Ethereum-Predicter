@@ -469,8 +469,8 @@ class App:
 			value_withdate_scaled.insert(0, 'Date', date)
 			value_withdate_scaled.columns = column_names_for_input
 
-			
-			output = poly_model.predict(pft.fit_transform(value))
+			# issue with scaling
+			output = poly_model.predict(pft.fit_transform(value_withdate_scaled))
 
 			user_error = mean_squared_error(y_test, y_pred)
 
