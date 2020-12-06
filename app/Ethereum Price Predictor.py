@@ -348,13 +348,13 @@ class App:
 
 			# December 2019 to December 2020 Data Sets
 			# New york Stock Exchange
-			nystock = pd.read_csv("data/dec3-19 to dec4-20/nystock.csv")
+			nystock = pd.read_csv("../data/dec3-19 to dec4-20/nystock.csv")
 			# Dow Jones Industrial Average 
-			dowjones = pd.read_csv("data/dec3-19 to dec4-20/dowjones.csv")
+			dowjones = pd.read_csv("../data/dec3-19 to dec4-20/dowjones.csv")
 			# Shanghai Composite Index
-			shanghai = pd.read_csv("data/dec3-19 to dec4-20/shanghai.csv")
+			shanghai = pd.read_csv("../data/dec3-19 to dec4-20/shanghai.csv")
 			# Ethereum Price
-			ethereum = pd.read_csv("data/dec3-19 to dec4-20/ethereum.csv")
+			ethereum = pd.read_csv("../data/dec3-19 to dec4-20/ethereum.csv")
 
 			# Create a function to remove the volume column and then convert the date time to a int timestamp
 

@@ -183,6 +183,8 @@ for i in range(1, 7):
 
 #### The app will require in total 19 inputs that can be found by retrieving the following through any source of Stock Exchange outlets:
 
+#### For testing, a test.txt file was provided for the app with a test date and values for the inputs.
+
 Date (in Year-Month-Day Format)
 
 Open, High, Low, Close, Adj for NYSE, DOWJONES, and SHANGHAI
