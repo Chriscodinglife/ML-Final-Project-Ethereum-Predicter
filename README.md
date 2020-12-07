@@ -1,10 +1,10 @@
-# ML Final Project Ethereum Predicter
+# ML Final Project Ethereum Predicter and Predictor App
 
 ## Christian Orellana | Machine Learning | Pratt Institute | December 2020
 
 ![ethereum](images/ethereum.png)
 
-
+![screenshot_app](images/screenshot_app.png)
 ## Purpose and Abstract
 
 ![crash](images/crash.jpg)
