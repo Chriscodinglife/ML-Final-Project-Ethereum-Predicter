@@ -184,13 +184,17 @@ for i in range(1, 7):
 
 ## The Order of Degrees: 2
 
-![error](images/errorvsdegrees.png)
+<p align="center">
+  <img src="images/errorvsdegrees.png" />
+</p>
 
 #### As it can be seen above, the best order of degrees was 2 for my model, which is typically the default order of degrees for a base polynomial regression model. A linear regression model which typically has an order of 1 degree has more error than a order degree of 2 polynomial regression model. Anything past two would increase my error output.
 
 ## Here comes the money: Implementing my model into an App
 
-![money](images/moneyfalling.gif)
+<p align="center">
+  <img src="images/moneyfalling.gif" />
+</p>
 
 ### In order to create my app I used the Tkinter library that can be used to create an adaptable GUI in an OS environment. 
 
