@@ -186,7 +186,7 @@ for i in range(1, 7):
 
 ![error](images/errorvsdegrees.png)
 
-#### As it can be seen above, the best order of degrees was 2 for my model, which is typically the default order of degrees for a base polynomial regression model. A linear regression model which typically has an order of 1 degree has more error than a order degree of 2 polynomail regression model. Anything past two would increase my error output.
+#### As it can be seen above, the best order of degrees was 2 for my model, which is typically the default order of degrees for a base polynomial regression model. A linear regression model which typically has an order of 1 degree has more error than a order degree of 2 polynomial regression model. Anything past two would increase my error output.
 
 ## Here comes the money: Implementing my model into an App
 
@@ -202,8 +202,13 @@ for i in range(1, 7):
 
 #### The app will require in total 19 inputs that can be found by retrieving the following through any source of Stock Exchange outlets:
 
-#### For testing, a test.txt file was provided for the app with a test date and values for the inputs.
+#### For testing, a test.txt file was provided for the app with a test date and values for the inputs that can be found here:
 
+```
+https://github.com/chrisatpratt/ML-Final-Project-Ethereum-Predicter/blob/main/app/test.txt
+```
+
+#### Values needed for app:
 Date (in Year-Month-Day Format)
 
 Open, High, Low, Close, Adj for NYSE, DOWJONES, and SHANGHAI
