@@ -2,7 +2,9 @@
 
 ## Christian Orellana | Machine Learning | Pratt Institute | December 2020
 
-![ethereum](images/ethereum.png)
+<p align="center">
+  <img src="images/ethereum.png" />
+</p>
 
 ![screenshot_app](images/screenshot_app.png)
 ## Purpose and Abstract
