@@ -49,18 +49,21 @@ https://github.com/chrisatpratt/ML-Final-Project-Ethereum-Predicter/tree/main/ap
 ### The datasets used were the following stock exchange data sets available here:
 
 ![ny](images/stock.jpg)
+
 NYSE 
 ```
 https://finance.yahoo.com/quote/%5ENYA
 ```
 
 ![dowjones](images/dowjones.jpg)
+
 DowJones
 ```
 https://finance.yahoo.com/quote/%5EDJI/history?p=%5EDJI
 ```
 
 ![shanghai](images/shanghai.jpg)
+
 Shanghai Stock Exchange
 ```
 https://finance.yahoo.com/quote/000001.SS/history
@@ -138,6 +141,20 @@ def predict_button(value):
     return poly_model.predict(pft.fit_transform(value))
 ```
 
+#### After merging and preparing the data, it was important to also look out for any missing values for dates between the various data sets. Also, since plenty the values the model was going to use are very large numbers a scaler was used to adjust the values that will be inputed into the ML model.
+
+Imputer (guessdata is the name of the master data set with all files merged together)
+```
+imputer = SimpleImputer(missing_values=nan, strategy='mean')
+guessdata_nodates = imputer.fit_transform(guessdata_nodates)
+```
+
+Scaler
+```
+scaler = StandardScaler()
+scaler.fit(guessdata_nodates.iloc[:,0:18])
+guessdata_nodates_scaled = scaler.transform(guessdata_nodates.iloc[:,0:18])
+```
 ## Calculating Error
 
 #### Polynomial Regression uses an order of degrees that sets the power of the features to the number of degrees, outputting more data than the input, which can then be used to predict our Ethereum price. 
