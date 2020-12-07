@@ -40,7 +40,7 @@ https://github.com/chrisatpratt/ML-Final-Project-Ethereum-Predicter/tree/main/ap
 
 
 
-## Ethereum, I'm watching you: Implementing Polynomial Regression onto 
+## Ethereum, I'm watching you: Implementing Polynomial Regression onto Stock and Ethereum Data
 
 ### This project focuses on Ethereum as the main subject of the machine learning model. 
 
